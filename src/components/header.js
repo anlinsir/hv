@@ -17,18 +17,30 @@ class Header extends Component{
 				backgroundColor:'transparent', 
 				top:0,
 				position: 'absolute'
-			}	
+			},
+			value:''	
 
 
 		}
 		this.searchShow = this.searchShow.bind(this)
+		this.search = this.search.bind(this)
+		this.change = this.change.bind(this)
 	}
 	searchShow(){
 		this.setState({
 			searchShow:!this.state.searchShow
 		})
-		console.log(this.props)
 
+	}
+	search(){
+		console.log(this.state.value)
+		window.location.assign(`http://localhost:3000/search/${this.state.value}`)
+
+	}
+	change(e){
+		this.setState({
+			value:e.target.value
+		})
 	}
 
 	render(){
@@ -47,8 +59,8 @@ class Header extends Component{
 							</ul>
 							{this.state.searchShow?
 									<div className='input'>
-										<input type='text' placeholder='search'/>
-										<button>sea </button>
+										<input type='text' onChange={this.change} value={this.state.value} placeholder='search'/>
+										<button onClick={this.search}>sea </button>
 									</div>:''
 							}
 						</div>

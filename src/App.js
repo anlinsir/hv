@@ -14,6 +14,11 @@ import Index from './pages/index'
 import Login from './pages/login'
 import Register from './pages/register'
 import Detail from './pages/details'
+import My from './pages/my'
+import Search from './components/index/search'
+
+
+
 
 
 
@@ -28,6 +33,9 @@ class App extends Component {
           <Route path="/login" component={Login}></Route>
           <Route path="/register" component={Register}></Route>
           <Route path="/detail/:id" component={Detail}></Route>
+          <Route path="/my" component={My}></Route>
+          <Route path="/search/:key" component={Search}></Route>
+
 
 
 

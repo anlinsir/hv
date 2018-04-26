@@ -26,10 +26,11 @@ class Register extends Component{
 	register(){
 		if(this.state.pass != this.state.passinfo){
 			alert('两次密码不一致')
-			return
+			return	
 		} 
-		console.log('OK ')
-
+		localStorage.user = this.state.user
+		window.location.assign('http://localhost:3000/my')
+		// window.location.href = 'http://localhost:3000/login'
 	}
 	render(){
 		return(

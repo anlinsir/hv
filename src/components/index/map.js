@@ -81,6 +81,7 @@ class Maps extends Component {
 			confi:choose[0],
 			area:choose[1]
 		})
+		alert('功能未开放')
 	}
 
 	render(){

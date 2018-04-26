@@ -37,6 +37,8 @@ class Login extends Component {
 
 		//登录 接口
 		console.log(this.state.user,this.state.pass)
+		localStorage.user = this.state.user
+		window.location.assign('http://localhost:3000/my')
 	}
 	change(e){
 		this.setState({
