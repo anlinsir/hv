@@ -1,0 +1,109 @@
+.warp{
+	width: 100%;
+	height: 50px;
+}
+.pages{
+	width: 100%;
+	height: 500px;
+position: relative;
+
+}
+.pagess{
+	width: 585px;
+	height: 343px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.pagess > h2{
+	color: #fff;
+	font-weight: normal;
+	border-bottom:1px solid #353535;
+	margin-top: 10px;
+	padding: 0 0 20px 0;
+
+}
+.input{
+	width: 100%;
+	min-height: 30px;
+	padding-right: 60px;
+	text-align: right;
+	box-sizing: border-box;
+	font-size: 13px;
+	color: #5c5c5c;
+	font-weight: 600;
+}
+.input > input {
+	margin-left:20px;
+	width: 360px;
+	height: 33px;
+	border:1px solid #404040; 
+	background-color: #353535;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	outline: none;
+	padding-left: 20px;
+	box-sizing: border-box; 
+}
+.input > p{
+	float: left;
+}
+.input > p > button{
+	margin-top: 20px;
+	margin-left:13px; 
+	transform: translateX(-15px);
+	width: 50px;
+	height: 30px;
+	border: none;
+	background-color: #2895dd;
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+.input > p >.remember{
+	margin-left:135px; 
+
+}
+.input > p >a{
+	color: #2895dd;
+	display: inline-block;
+	    transform: translateX(-8px);
+	    margin-bottom: 20px;
+	}
+.input > p >span{
+	display: inline-block;
+	transform: translateX(100px);
+}
+.input > p >span i{
+	color: #2895dd;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 0 40px 0 20px;
+	color: #353535;
+}
+footer > ul {
+	width: 30%;
+	height: 50px;
+	display: flex;
+	justify-content:space-around; 
+}
+footer > ul >li:hover{
+	color: #fff;
+}
+

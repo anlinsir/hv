@@ -1,0 +1,88 @@
+.mapitemWarp{
+	width: 100%;
+	height: 100%;
+	background-color: #1A1A1A;
+}
+
+.mapitemWarp .itemWarp{
+	width: 100%;
+	height: 100%;
+	color: #aaa;
+	padding: 30px 100px;
+	box-sizing: border-box;
+
+}
+.mapitemWarp .itemWarp .mapiter{
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+.mapitemWarp .itemWarp .mapiter .maptext{
+	width: 790px;
+	height: 500px;
+	position: absolute;
+}
+.mapitemWarp .itemWarp .mapiter .maptext ul{
+	position: relative;
+}
+.mapitemWarp .itemWarp .mapiter .maptext ul li{
+	position: absolute;
+	top: 0;
+	font-size: 12px;
+}
+.mapitemWarp .itemWarp .mapiter .maptext ul li:nth-child(1){
+	left: 299px;
+    top: 334px;
+}
+
+
+
+.mapitemWarp .itemWarp .mapiter .mapItemImg{
+	width: 780px;
+	margin-right: 100px;
+}
+.mapitemWarp .itemWarp .mapiter .mapItemImg .itemImg{
+
+}
+.mapitemWarp .itemWarp .mapiter .mapItemImg .itemImgTitle{
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	font-size: 16px;
+	border-bottom:1px solid #383838;
+	padding: 15px 0;
+	margin-bottom: 20px;
+
+}
+.mapitemWarp .itemWarp .mapiter .itemName{
+	width: 400px;
+}
+.mapitemWarp .itemWarp .mapiter .itemName .itemNameTitle{
+	border-bottom:1px solid #383838;
+	margin-bottom: 20px;
+
+	color: #fff;
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	padding: 15px 0;
+
+
+}
+
+.mapitemWarp .itemWarp .mapiter .itemName .itemNameContent{
+	display: flex;
+	justify-content: flex-start;
+}
+.mapitemWarp .itemWarp .mapiter .itemName .itemNameContent ul {
+	width:50%;
+}
+.mapitemWarp .itemWarp .mapiter .itemName .itemNameContent ul li {
+	font-size: 12px;
+	height: 24px;
+}
+.mapitemWarp .itemWarp .mapiter .itemName .itemNameContent ul li a{
+	color: #aaa;
+	font-size: 13px;
+}
+
